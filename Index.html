@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentacion Alejo Andina</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+        body {
+          background-image: url("fondo_body-01.jpg");
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+        }
+        
+        body {
+          margin: 50px;
+        }
+        .header {
+          background-color: #167baa;
+          opacity: 0.6;
+          padding: 5px;
+          text-align: center;
+          Font-family: Verdana;
+          color: #f1efef;
+          text-shadow: 2px 2px rgb(7, 1, 63);
+        }
+        .div2 {
+            width: 100%;
+            height: auto;
+            float: left;
+         }
+         .div3 {
+           width: 100%;
+           height: auto;
+           font-family: Verdana;
+           font-style: italic;
+           font-size: 14px;
+           color: #f1efef;
+           padding: 1px 0px;
+           background-color: #167baa;
+           opacity: 0.6;
+           Float: left;
+           text-shadow: 1px 1px rgb(7, 1, 63);
+         }
+         .p1 {
+           padding: 0px 15px;
+
+         }
+         div.galeria {
+           margin: 0px;
+           float: left;
+           width: 150px;
+         }
+         div.galeria:hover {
+           border: 1px solid #ccc;
+         }
+         div.galeria img {
+           width: 100%;
+           height: auto;
+         }
+         div.desc {
+           padding: 10px;
+           text-align: center;
+           FONT-FAMILY: verdana;
+           font-variant: normal;
+           font-weight: bold;
+           font-size: 13px;
+           color: #0c3094;
+         }
+         footer {
+         background-color: #167baa;
+          opacity: 0.6;
+          padding: 5px 20px;
+          text-align: left;
+          Font-family: Verdana;
+          color: #f1efef;
+          text-shadow: 2px 2px rgb(7, 1, 63);
+          float: left;
+          width: 100%;
+          font-size: 13px;
+        }
+        </style>
+</head>
+<body>  
+    <div class="header">
+        <h1>Alejo Andina</h1>
+    </div>
+    <div>
+    <img class="div2" src="Alejo.jpg" alt="Alejo">
+    </div>
+    <div class="div3">
+      <article class="p1">
+        <p>
+        Soy de la ciudad de Berisso, cercana a La Plata (55 km de Capital).
+        Diseñador gráfico (aplicado a varias ramas de la impresión y medios digitales),
+        experiencia en animación cinematográfica e Ilustrador.
+        Formo parte del equipo de comunicación del Municipio de Berisso,
+        con acción en gestión y campañas políticas.
+      </p>
+      </article>
+      </div>
+      <div class="galeria">
+        <a target="_blank" href="/trabajo.jpg">
+          <img src="/trabajo.jpg" alt="Diseño Grafico"
+          width="350" height="auto">
+        </a>
+        <div class="desc">+ DISEÑO</div>
+      </div>
+      <div class="galeria">
+        <a target="_blank" href="/dibujo.jpg">
+          <img src="/dibujo.jpg" alt="Diseño Grafico"
+          width="350" height="auto">
+        </a>
+        <div class="desc">+ ILUSTRACION</div>
+      </div>
+      <div class="galeria">
+        <a target="_blank" href="/Institucional.jpg">
+          <img src="/Institucional.jpg" alt="Diseño Grafico"
+          width="350" height="auto">
+        </a>
+        <div class="desc">+ CAMPAÑAS</div>
+      </div>
+      <footer>
+      <p>Realizá la consulta que desees</p>
+      <form action="#">
+        
+        <input type="text" id="Nombre" name="Nombre">
+        <label for="Nombre">Nombre</label><br><br>
+        <input type="text" id="Apellido" name="Apellido">
+        <label for="Apellido">Apellido</label><br><br>
+        <input type="text" id="Telefono" name="Telefono">
+        <label for="Telefono">Telefono</label><br><br>
+        <input type="text" id="Email" name="Email">
+        <label for="Email">Email</label><br><br>
+        <textarea name="Consulta" rows="10" cols="30"
+        placeholder="Escribi tu consulta aqui"></textarea><br><br>
+        <input type="submit" value="Enviar"><br><br>
+        
+        
+       </form>
+      </footer>
+    
+    
+</body>      
+</html>
